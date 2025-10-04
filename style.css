@@ -185,3 +185,30 @@ footer {
 a {
   color: black;
 }
+
+
+
+/* Make overlay text responsive */
+.overlay p {
+  font-size: 1rem;        /* adjust size for readability */
+  line-height: 1.6;       /* improve spacing */
+  word-wrap: break-word;  /* prevent overflow on long words */
+  max-width: 95%;         /* keep it inside container */
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .overlay {
+    padding: 15px;
+    font-size: 0.9rem;
+    overflow-y: auto;   /* allow scrolling inside overlay if text is too long */
+  }
+
+  .photo-container {
+    width: 90%;          /* image + overlay narrower on small screens */
+  }
+
+  .hero-img {
+    border-radius: 6px;
+  }
+}
