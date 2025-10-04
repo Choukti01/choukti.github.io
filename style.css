@@ -212,3 +212,15 @@ a {
     border-radius: 6px;
   }
 }
+
+
+.overlay {
+  display: flex;
+  align-items: center;       /* keep text vertically centered */
+  justify-content: center;   /* center horizontally */
+  text-align: center;        /* center the paragraph */
+}
+
+.overlay p {
+  margin: 0;
+}

@@ -9,7 +9,7 @@ document.querySelectorAll("a, button, .card, .social-btn").forEach(el => {
 
 // Typing effect text
 const typingElement = document.querySelector(".typing");
-const texts = ["Fullstack Developer", "Prestige Builder", "Creative Coder"];
+const texts = ["Fullstack Developer", "Frontend Angel", "Backend Engine"];
 let i = 0;
 setInterval(() => {
   typingElement.textContent = texts[i];
